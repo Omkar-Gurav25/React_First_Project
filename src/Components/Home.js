@@ -11,16 +11,28 @@ const Home = () => {
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <img src="./images/poster4.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/poster5.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
                         <img src="./images/poster1.jpg" class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/poster3.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
                         <img src="./images/poster2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/poster3.jpg" class="d-block w-100" alt="..." />
+                        <img src="./images/poster6.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -34,7 +46,7 @@ const Home = () => {
             </div>
 
             {/* Packages Section */}
-            <div className='bg-success mb-4 rounded'>
+            <div className='bg-light mb-4 rounded'>
                 <h1 className="text-center text-info my-5">Our Packages</h1>
                 <div className="div container">
                     <div className="div row">
