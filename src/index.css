@@ -2,10 +2,12 @@
 a{
   text-decoration: none;
 }
-/* Navbar css */
+
+/*----------------------------
+Navbar css
+-------------------------- */
 .navbar{
-  background: linear-gradient(to bottom right, #99ccff 0%, #ffccff 100%);
-  
+  background: linear-gradient(to bottom right, #99ccff 0%, #ffccff 100%); 
 }
 .logo{
   width: 100px;
@@ -30,15 +32,34 @@ a{
   color: rgb(255, 255, 255);
   
 }
-
-
 /* Navbar End */
 
-/* Carousel */
+
+
+/* -------------------------
+Carousel----------------- */
 .carousel{
   padding-top: 80px;
 }
 /* carousel end */
+
+.services .services-box{
+  background: linear-gradient(to bottom right, #99ccff 0%, #ffccff 100%); 
+}
+.services .row{
+  /* padding-left: 20%; */
+  padding: 5% 5% 5% 23%;
+}
+.services .icon-box {
+  width: 200%;
+  height: 100%;
+  text-align: center;
+  /* padding: 70px 20px 15px 20px; */
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+
 .card-img-top{
   height: 150px;
 }
