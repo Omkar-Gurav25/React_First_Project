@@ -51,24 +51,24 @@ const Home = () => {
                 <h2 className='text-center text-dark py-4'>WELCOME TO GREENFORD OVERSEAS</h2>
                 <div className="container px-5 mx-5">
                     <div className="container px-5 mx-5">
-                <ul className='px-5 mx-5' style={{ listStyle: "square" }}>
-                    <li className='py-1'>Greenford Overseas is one of the leading fresh fruit, vegetable and spices export company from India.</li>
-                    <li className='py-1'>Our main activity is export of Table grape, Pomegranate, Onion, Mango, Fruits & Fresh Vegetables, Spices and Essential Oil.</li>
-                    <li className='py-1'>Geographical location: We are Located at Pune, Maharashtra (India) which is the only place in India where Fruits & vegetables are exported.</li>
-                    <li className='py-1'>Nearest sea and air port is MUMBAI located only 4.00 hour journey from Pune. This is the major benefits of our geographical location.</li>
-                </ul>
-                </div>
+                        <ul className='px-5 mx-5' style={{ listStyle: "square" }}>
+                            <li className='py-1'>Greenford Overseas is one of the leading fresh fruit, vegetable and spices export company from India.</li>
+                            <li className='py-1'>Our main activity is export of Table grape, Pomegranate, Onion, Mango, Fruits & Fresh Vegetables, Spices and Essential Oil.</li>
+                            <li className='py-1'>Geographical location: We are Located at Pune, Maharashtra (India) which is the only place in India where Fruits & vegetables are exported.</li>
+                            <li className='py-1'>Nearest sea and air port is MUMBAI located only 4.00 hour journey from Pune. This is the major benefits of our geographical location.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             {/* Core Values Section */}
             <div className='services'>
-                <h1 className="text-center text-dark py-5">CORE VALUES</h1>
+                <h1 className="text-center text-dark py-4">CORE VALUES</h1>
 
                 <div className='services-box'>
                     <div className="row justify-center py-4">
                         <div
-                            className="col-lg-3 col-md-6 d-flex align-items-stretch px-2 py-3"
+                            className="col-xs-12 col-sm-6 col-md-4 d-flex align-items-stretch px-3 py-3"
                             data-aos="zoom-in"
                             data-aos-delay="100"
                         >
@@ -80,19 +80,19 @@ const Home = () => {
                                         alt=""
                                     />
                                 </div>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}} />
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
                                 <h4>
                                     <a href="" className="font-bold">
                                         INFRASTRUCTURE
                                     </a>
                                 </h4>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}}/>
-                                    <p>We operate through our modern <br />pack house / cold storage facility for grapes, onion grading center & modern packing facility for Vegetable in India) with Best Hygienic conditions.</p>
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
+                                <p>We operate through our modern <br />pack house / cold storage facility for grapes, onion grading center & modern packing facility for Vegetable in India) with Best Hygienic conditions.</p>
                             </div>
                         </div>
 
                         <div
-                            className="col-lg-3 col-md-6 d-flex align-items-stretch px-2 py-3"
+                            className="col-xs-12 col-sm-6 col-md-4 d-flex align-items-stretch px-3 py-3"
                             data-aos="zoom-in"
                             data-aos-delay="200"
                         >
@@ -103,20 +103,20 @@ const Home = () => {
                                         alt=""
                                     />
                                 </div>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}}/>
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
                                 <h4>
                                     <a href="" className="font-bold">
                                         QUALITY
                                     </a>
                                 </h4>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}}/>
-                                    <p className='px-2'>Being quality conscious organization ,all our produce from associated growers are closely monitored in various growth stages till packaging, the produce can be tested in APEDA recognized laboratories as per customer’s need.</p>
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
+                                <p className='px-2'>Being quality conscious organization ,all our produce from associated growers are closely monitored in various growth stages till packaging, the produce can be tested in APEDA recognized laboratories as per customer’s need.</p>
 
                             </div>
                         </div>
 
                         <div
-                            className="col-lg-3 col-md-6 d-flex align-items-stretch px-2 py-3" 
+                            className="col-xs-12 col-sm-6 col-md-4 d-flex align-items-stretch px-3 py-3"
                             data-aos="zoom-in"
                             data-aos-delay="300"
                         >
@@ -127,14 +127,14 @@ const Home = () => {
                                         alt=""
                                     />
                                 </div>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}}/>
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
                                 <h4>
                                     <a href="" className="font-bold">
                                         PACKAGING
                                     </a>
                                 </h4>
-                                <hr className="mb-2" style={{width: "80%", margin: "auto"}}/>
-                                    <p>Greenford Overseas Packing is carried out in APEDA Approved pack house in hygienic packaging material to suit end users requirements for export as well as domestic market.</p>
+                                <hr className="mb-2" style={{ width: "80%", margin: "auto" }} />
+                                <p>Greenford Overseas Packing is carried out in APEDA Approved pack house in hygienic packaging material to suit end users requirements for export as well as domestic market.</p>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ const Home = () => {
             </div>
 
             {/* Packages Section */}
-            <div className='my-3 rounded'>
+            {/* <div className='my-3 rounded'>
                 <h1 className="text-center text-info my-5">Our Packages</h1>
                 <div className="div container">
                     <div className="div row">
@@ -155,10 +155,10 @@ const Home = () => {
                         })}
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Question Asked */}
-            <div className='Questions  mx-5 mb-4'>
+            {/* <div className='Questions  mx-5 mb-4'>
                 <h1 className="div text-center text-danger my-4">Question Asked</h1>
                 <div class="accordion accordion-flush mx-5" id="accordionFlushExample">
                     <div class="accordion-item mx-5">
@@ -192,7 +192,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
