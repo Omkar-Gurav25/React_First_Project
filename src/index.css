@@ -11,7 +11,7 @@ Navbar css
 }
 .logo{
   width: 100px;
-  height: 50px;
+  height: 40px;
   margin-right: 15px;
   margin-left: 10px;
 }
@@ -72,6 +72,19 @@ About Section
 
 .key-points li h3{
   color: rgb(20, 207, 29);
+}
+
+/* About section end */
+
+
+/* -----------------------
+Contact
+------------------------- */
+.country{
+  padding-top: 80px;
+}
+.country .table-data{
+  padding: 0 35% 0 35%;
 }
 .card-img-top{
   height: 150px;
