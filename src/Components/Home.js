@@ -1,6 +1,8 @@
 import React from 'react'
-import Card from './Card'
-import Data from './ApiData'
+import SwiperSlider from './swiperSlider'
+// import Card from './Card'
+// import Data from './ApiData'
+
 
 const Home = () => {
     return (
@@ -141,6 +143,8 @@ const Home = () => {
                 </div>
             </div>
 
+            <SwiperSlider />
+
             {/* Packages Section */}
             {/* <div className='my-3 rounded'>
                 <h1 className="text-center text-info my-5">Our Packages</h1>
@@ -156,6 +160,7 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
+
 
             {/* Question Asked */}
             {/* <div className='Questions  mx-5 mb-4'>

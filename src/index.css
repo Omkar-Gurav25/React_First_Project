@@ -93,3 +93,48 @@ Contact
 .active_styles{
   border-bottom: 2px solid #000;
 }
+
+
+/* swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: none;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide .images {
+  display: block;
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.swiper-con h2{
+  font-size: x-large;
+  padding-top: 1%;
+}
+@media (max-width: 500px){
+  .swiper-con h2{
+    font-size: 8px;
+  }
+}

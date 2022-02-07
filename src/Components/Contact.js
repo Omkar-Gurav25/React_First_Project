@@ -3,9 +3,9 @@ import React from 'react'
 const Contact = () => {
     return (
         <>
-            <div className='container country pt-5 bg-secondary'>
-                <h2 className='text-center py-4 text-light'>Greenford Overseas Around The World</h2>
-                <h5 className='px-5 text-light'>Presently the firm is Exporting to around 36 Countries like USA, UK, CANADA, OMAN, QATAR, JORDAN, SINGAPORE, KUWAIT, SAUDI ARABIA, ALGERIA, MOROCCO, TUNISIE, NIGERIA, etc and are eager to expand all over the GLOBE.</h5>
+            <div className='container country pt-5 bg-light'>
+                <h2 className='text-center py-4 text-secondary'>Greenford Overseas Around The World</h2>
+                <h6 className='px-5 text-danger'>Presently the firm is Exporting to around 36 Countries like USA, UK, CANADA, OMAN, QATAR, JORDAN, SINGAPORE, KUWAIT, SAUDI ARABIA, ALGERIA, MOROCCO, TUNISIE, NIGERIA, etc and are eager to expand all over the GLOBE.</h6>
 
 
                 <div class="container table-data py-4">
