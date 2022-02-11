@@ -1,5 +1,7 @@
 import React from 'react'
-import SwiperSlider from './swiperSlider'
+// import SwiperSlider from './swiperSlider'
+// import Slick from "./slick"
+import Ourcustomer from "./OurCustomer"
 // import Card from './Card'
 // import Data from './ApiData'
 
@@ -143,7 +145,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <SwiperSlider />
+            {/* <SwiperSlider /> */}
+            {/* <Slick /> */}
+            <Ourcustomer />
 
             {/* Packages Section */}
             {/* <div className='my-3 rounded'>

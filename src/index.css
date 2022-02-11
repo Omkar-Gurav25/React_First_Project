@@ -138,3 +138,131 @@ Contact
     font-size: 8px;
   }
 }
+
+/* our cuustomer */
+
+.single-box .img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 35% 5%;
+  background: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+.single-box .img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.single-box .img-text p{
+  font-size: 14px;
+}
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+.single-box .img-area{
+  position: absolute;
+  width: 28%;
+  height: 40%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  margin: 4% 32% 2% 32%;
+  border-radius: 50%;
+}
+.single-box .img{
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  .single-box .img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 60% 5% 20% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+  }
+  .single-box .img-text h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .single-box .img-text p{
+    font-size: 12px;
+  }
+  .single-box{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .single-box .img-area{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    margin: 4% 23% 2% 23%;
+    border-radius: 50%;
+  }
+  .single-box .img{
+    width: 100%;
+  }
+  
+}
+/* --------------
+Footer
+----------------- */
+.site-footer{
+  padding-top: 5em;
+  padding-bottom: 1em;
+  background: rgb(44, 41, 41);
+  font-size: 14px;
+  color: white;
+}
+
+.site-footer a{
+  color: white;
+  border-bottom: 1px solid transparent;
+}
+.site-footer a:hover{
+  color: orange;
+}
+.site-footer a i{
+  color: orange;
+  font-size: 18px;
+}
+.site-footer .icons .fab{
+  font-size: 26px;
+}
+.site-footer p{
+  font-size: 17px;
+}
+.site-footer h2{
+  font-size: 19px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #fff;
+  
+}
+
+.site-footer h3{
+  font-size: 19px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #fff;
+}
+
+.site-footer .footer-link li{
+  line-height: 1;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+/* ----------
+Footer End
+------------------ */
+
